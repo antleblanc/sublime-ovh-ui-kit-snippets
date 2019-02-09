@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<oui-search
+    data-model="\$ctrl.${1:modelValue}"
+    placeholder="${2:Placeholder example}">
+</oui-search>
+]]></content>
+  <tabTrigger>oui-search</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-search</description>
+</snippet>

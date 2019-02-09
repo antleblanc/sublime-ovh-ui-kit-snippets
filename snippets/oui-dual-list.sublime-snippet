@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<oui-dual-list
+    data-source="\$ctrl.${1:sourceStrings}"
+    data-target="\$ctrl.${2:targetStrings}">
+    <oui-dual-list-source data-searchable></oui-dual-list-source>
+    <oui-dual-list-target></oui-dual-list-target>
+</oui-dual-list>
+]]></content>
+  <tabTrigger>oui-dual-list</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-dual-list</description>
+</snippet>

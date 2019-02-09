@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+<oui-modal
+    data-heading="${1:Modal title}"
+    data-primary-action="${2:\$ctrl.confirm = true}"
+    data-primary-label="${3:Ok}"
+    data-secondary-action="${4:\$ctrl.cancel = true}"
+    data-secondary-label="${5:Cancel}"
+    data-loading="\$ctrl.${6:loading}"
+    data-on-dismiss="${7:\$ctrl.cancel = true}">
+    ${8:Modal content}
+</oui-modal>
+]]></content>
+  <tabTrigger>oui-modal</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-modal</description>
+</snippet>

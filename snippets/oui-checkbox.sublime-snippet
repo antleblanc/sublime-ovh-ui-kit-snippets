@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<oui-checkbox data-model="\$ctrl.${1:checked}">${2:Normal}</oui-checkbox>
+]]></content>
+  <tabTrigger>oui-checkbox</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-checkbox</description>
+</snippet>

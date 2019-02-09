@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<oui-message
+    aria-close-button-label="${1:Close}"
+    data-type="${2:info}"
+    dismissable>
+    ${3:Message}
+</oui-message>
+]]></content>
+  <tabTrigger>oui-message</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-message</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<oui-page-header
+    data-heading="${1:My title}"
+    data-description="${2:My subtitle}">
+</oui-page-header>
+]]></content>
+  <tabTrigger>oui-page-header</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-page-header</description>
+</snippet>

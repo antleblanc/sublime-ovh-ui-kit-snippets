@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<oui-radio
+    data-name="${1:oui-radio-1}"
+    data-model="\$ctrl.${2:value1}"
+    data-value="${3:'a'}">
+    ${4:Value A}
+</oui-radio>
+]]></content>
+  <tabTrigger>oui-radio</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-radio</description>
+</snippet>

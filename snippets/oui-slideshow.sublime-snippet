@@ -1,0 +1,34 @@
+<snippet>
+  <content><![CDATA[
+<oui-slideshow>
+    <oui-slideshow-panel
+        data-heading="${1:New feature}"
+        data-picture="${2:https://upload.wikimedia.org/wikipedia/commons/4/4a/Cercle_rouge_100%25.svg}">
+        ${3:Display your infrastructure as a list}
+    </oui-slideshow-panel>
+    <oui-slideshow-panel
+        data-heading="${4:Introducing Ad-Sync}"
+        data-picture="${5:https://upload.wikimedia.org/wikipedia/commons/4/4a/Cercle_rouge_100%25.svg}"
+        href="${6:http://www.ovh.com/}"
+        data-label="${7:Discover}">
+        ${8:Designed to help you synchronize your local Active Directory with your OVH Active Directory.}
+    </oui-slideshow-panel>
+    <oui-slideshow-panel
+        data-heading="${9:New features available in your emails pages}"
+        href="${10:http://www.ovh.com/}"
+        data-label="${11:Discover}">
+        ${12:Introducing Ad-Sync, designed to help you synchronize your local Active Directory with your OVH Active Directory.}
+    </oui-slideshow-panel>
+    <oui-slideshow-panel
+        data-heading="${13:Introducing Ad-Sync}"
+        data-picture="${14:https://upload.wikimedia.org/wikipedia/commons/4/4a/Cercle_rouge_100%25.svg}"
+        href="${15:http://www.ovh.com/}"
+        data-label="${16:Discover}">
+        ${17:Designed to help you synchronize your local Active Directory with your OVH Active Directory.}
+    </oui-slideshow-panel>
+</oui-slideshow>
+]]></content>
+  <tabTrigger>oui-slideshow</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-slideshow</description>
+</snippet>

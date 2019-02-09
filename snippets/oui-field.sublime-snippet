@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+<oui-field
+    data-label="${1:Lastname}"
+    data-help-text="${2:At least 3 chars}"
+    data-size="${3:xl}">
+    <input
+        class="oui-input"
+        type="text"
+        id="lastname"
+        name="lastname"
+        data-ng-model="\$ctrl.${4:user.lastname}"
+        required
+        minlength="3"
+        maxlength="32">
+</oui-field>
+]]></content>
+  <tabTrigger>oui-field</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-field</description>
+</snippet>

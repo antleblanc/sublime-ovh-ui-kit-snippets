@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+<oui-inline-adder>
+    <oui-inline-adder-row>
+        <oui-inline-adder-field>
+            <oui-field data-label="${1:Field 1}">
+                <input
+                    type="text"
+                    class="oui-input"
+                    name="${2:field1}"
+                    data-ng-model="${3:field1}"
+                    required>
+            </oui-field>
+        </oui-inline-adder-field>
+    </oui-inline-adder-row>
+</oui-inline-adder>
+]]></content>
+  <tabTrigger>oui-inline-adder</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-inline-adder</description>
+</snippet>

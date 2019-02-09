@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<oui-switch
+    id="${1:switch}"
+    name="${1:switch-name}"
+    data-model="${3:false}">
+</oui-switch>
+]]></content>
+  <tabTrigger>oui-switch</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-switch</description>
+</snippet>

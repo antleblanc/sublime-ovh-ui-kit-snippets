@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<oui-calendar
+    id="${1:foo}"
+    name="${2:bar}"
+    data-model="\$ctrl.${3:defaultModel}"
+    placeholder="${4:YYYY-MM-DD}">
+</oui-calendar>
+]]></content>
+  <tabTrigger>oui-calendar</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-calendar</description>
+</snippet>

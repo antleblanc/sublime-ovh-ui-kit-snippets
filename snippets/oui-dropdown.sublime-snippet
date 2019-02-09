@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+<oui-dropdown>
+    <oui-dropdown-trigger data-text="${1:Actions}"></oui-dropdown-trigger>
+    <oui-dropdown-content>
+        <oui-dropdown-group data-label="${2:Lorem ipsum}">
+            <oui-dropdown-item data-on-click="\$ctrl.${3:onActionClick()}">${4:Action 1 (button)}</oui-dropdown-item>
+            <oui-dropdown-item href="${5:#}">${6:Action 2 (link/href)}</oui-dropdown-item>
+        </oui-dropdown-group>
+        <oui-dropdown-group data-label="${7:Dolor sit amet}">
+            <oui-dropdown-item data-disabled>${8:Action 3 (disabled)}</oui-dropdown-item>
+            <oui-dropdown-item data-state="${9:showcase.oui-angular}">${10:Action 4 (link/state)}</oui-dropdown-item>
+        </oui-dropdown-group>
+        <oui-dropdown-divider></oui-dropdown-divider>
+        <oui-dropdown-item
+            href="${11:#}"
+            data-external>
+            ${12:External link}
+        </oui-dropdown-item>
+        <oui-dropdown-item
+            href="${13:#}"
+            data-sticky>
+            ${14:Start guided tour}
+        </oui-dropdown-item>
+    </oui-dropdown-content>
+</oui-dropdown>
+]]></content>
+  <tabTrigger>oui-dropdown</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-dropdown</description>
+</snippet>

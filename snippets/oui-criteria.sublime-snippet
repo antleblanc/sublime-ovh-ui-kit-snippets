@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<oui-criteria
+    data-model="\$ctrl.${1:basicModel}"
+    data-properties="\$ctrl.${2:inputValue}"
+    data-searchable>
+</oui-criteria>
+]]></content>
+  <tabTrigger>oui-criteria</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-criteria</description>
+</snippet>

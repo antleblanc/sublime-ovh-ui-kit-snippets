@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<oui-chips
+    data-items="\$ctrl.${1:items}"
+    data-stacked
+    data-closable>
+</oui-chips>
+]]></content>
+  <tabTrigger>oui-chips</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-chips</description>
+</snippet>

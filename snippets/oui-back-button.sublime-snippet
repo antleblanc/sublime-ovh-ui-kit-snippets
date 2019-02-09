@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<oui-back-button href="${1:#}">${2:Title}</oui-back-button>
+]]></content>
+  <tabTrigger>oui-back-button</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-back-button</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<oui-timepicker
+    data-model="\$ctrl.${1:placeholderModel}"
+    placeholder="${2:HH:MM}">
+</oui-timepicker>
+]]></content>
+  <tabTrigger>oui-timepicker</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-timepicker</description>
+</snippet>

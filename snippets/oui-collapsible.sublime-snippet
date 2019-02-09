@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<oui-collapsible
+    aria-label="${1:Action}"
+    data-heading="${2:Title}"
+    data-expanded="true">
+</oui-collapsible>
+]]></content>
+  <tabTrigger>oui-collapsible</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-collapsible</description>
+</snippet>

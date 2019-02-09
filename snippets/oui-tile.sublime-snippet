@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+<oui-tile data-heading="${1:Title}">
+    <oui-tile-definition
+        data-term="${2:Term}"
+        data-description="${3:This is a description}">
+    </oui-tile-definition>
+    <oui-tile-definition data-term="${4:Term}">
+        <oui-tile-description>${5:This is a description}</oui-tile-description>
+    </oui-tile-definition>
+    <oui-tile-definition
+        data-term="${6:Term}"
+        data-term-popover="${7:This is a popover text}"
+        data-description="${8:This is a description}">
+    </oui-tile-definition>
+    <oui-tile-definition
+        data-term="${9:Term}"
+        data-description="${10:This is a description}">
+        <oui-action-menu
+            data-compact
+            data-align="end">
+            <oui-action-menu-item data-text="${11:Action 1}"></oui-action-menu-item>
+        </oui-action-menu>
+    </oui-tile-definition>
+</oui-tile>
+]]></content>
+  <tabTrigger>oui-tile</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-tile</description>
+</snippet>

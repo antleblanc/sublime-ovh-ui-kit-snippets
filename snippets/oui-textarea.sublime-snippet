@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<oui-textarea
+    id="${1:text}"
+    name="${2:text}"
+    placeholder="${3:Please insert your text...}"
+    data-model="\$ctrl.${4:text}"
+    data-rows="${5:7}">
+</oui-textarea>
+]]></content>
+  <tabTrigger>oui-textarea</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-textarea</description>
+</snippet>

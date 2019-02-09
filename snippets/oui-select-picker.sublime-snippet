@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<oui-select-picker
+    data-name="${1:ouiSelectPicker1}"
+    data-match="${2:name}"
+    data-model="\$ctrl.${3:value1}"
+    data-label="${4:Value A or B}"
+    data-values="${5:[{id:'a', name: 'Value A'}, {id:'b', name: 'Value B'}]}">
+</oui-select-picker>
+]]></content>
+  <tabTrigger>oui-select-picker</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-select-picker</description>
+</snippet>

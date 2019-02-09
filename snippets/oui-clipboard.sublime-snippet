@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<oui-clipboard data-model="\$ctrl.${1:simpleModel}"></oui-clipboard>
+]]></content>
+  <tabTrigger>oui-clipboard</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-clipboard</description>
+</snippet>

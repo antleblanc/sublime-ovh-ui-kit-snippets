@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<oui-navbar
+    data-brand="\$ctrl.${1:brand}"
+    data-active-link="${2:lorem}"
+    data-main-links="\$ctrl.${3:mainLinks}"
+    data-aside-links="\$ctrl.${4:asideLinks}"
+    data-toggler-links="\$ctrl.${5:togglerLinks}">
+</oui-navbar>
+]]></content>
+  <tabTrigger>oui-navbar</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-navbar</description>
+</snippet>
