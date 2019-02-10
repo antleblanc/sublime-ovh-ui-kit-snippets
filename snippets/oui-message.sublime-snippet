@@ -3,7 +3,7 @@
 <oui-message
     aria-close-button-label="${1:Close}"
     data-type="${2:info}"
-    dismissable>
+    data-dismissable>
     ${3:Message}
 </oui-message>
 ]]></content>
