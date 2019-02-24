@@ -53,6 +53,8 @@
 
 * [ovh-ui-kit](https://github.com/ovh-ux/ovh-ui-kit) - OVH UI Kit - Master UI Framework
 * [ovh-ui-angular](https://github.com/ovh-ux/ovh-ui-angular) - A set of maintainable components for the OVH ecosystem (Angular)
+* [atom-ovh-ui-kit-snippets](https://github.com/antleblanc/atom-ovh-ui-kit-snippets) - Collection of OVH UI Kit snippets for Atom
+* [vscode-ovh-ui-kit-snippets](https://github.com/antleblanc/vscode-ovh-ui-kit-snippets) - Collection of OVH UI Kit snippets for Visual Studio Code
 
 ## License
 
