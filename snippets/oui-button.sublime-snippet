@@ -1,10 +1,6 @@
 <snippet>
   <content><![CDATA[
-<oui-button
-    data-variant="${1:primary}"
-    data-on-click="${2:onClick}()">
-    ${3:Default button}
-</oui-button>
+<oui-button aria-label="${1:Manage your servers}">${1:Manage your servers}</oui-button>
 ]]></content>
   <tabTrigger>oui-button</tabTrigger>
   <scope>text.html</scope>

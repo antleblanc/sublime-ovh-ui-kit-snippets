@@ -1,93 +1,59 @@
 <snippet>
   <content><![CDATA[
-<oui-stepper>
+<oui-stepper
+    data-on-init="\$ctrl.${1:onInit()}"
+    data-on-finish="\$ctrl.${2:onFinish(forms)}">
     <oui-step-form
-        data-header="${1:Simple step}"
-        data-description="${2:This is a description}">
+        data-header="${3:Step 1}"
+        data-description="${4:This is a description}"
+        data-on-cancel="\$ctrl.${5:onCancel()}"
+        data-on-focus="\$ctrl.${6:onFocus()}"
+        data-on-submit="\$ctrl.${7:onSubmit(form)}">
         <oui-field
-            data-label="${3:Email}"
-            data-size="${4:xl}">
-            <input
-                class="oui-input"
-                type="${5:email}"
-                name="${5:email}"
-                data-ng-model="$ctrl.${6:user.email}"
-                required>
-        </oui-field>
-        <oui-field
-            data-label="${7:Username}"
-            data-error-messages="{
-                pattern: ${8:'Username must be alphabetic with a length between 3 and 8.'}
-            }"
+            data-label="${8:Email}"
             data-size="${9:xl}">
             <input
                 class="oui-input"
-                type="${10:text}"
-                name="${11:username}"
-                data-ng-model="$ctrl.${13:user.username}"
-                data-ng-pattern="${14:/^[a-zA-Z]{3,8\\}$/}"
+                type="${10:email}"
+                name="${10:email}"
+                data-ng-model="\$ctrl.${11:user.email}"
                 required>
         </oui-field>
     </oui-step-form>
     <oui-step-form
-        data-header="${16:Skippable step}"
-        data-skippable
-        data-description="${17:This is another description}">
+        data-header="${12:Step 2}"
+        data-description="${13:This is a description}"
+        data-on-cancel="\$ctrl.${14:onCancel()}"
+        data-on-focus="\$ctrl.${15:onFocus()}"
+        data-on-submit="\$ctrl.${16:onSubmit(form)}"
+        data-skippable>
         <oui-field
-            data-label="${18:Firstname}"
-            data-size="${19:xl}">
+            data-label="${17:Firstname}"
+            data-size="${18:xl}">
             <input
                 class="oui-input"
-                type="${20:text}"
-                name="${21:firstname}"
-                data-ng-model="$ctrl.${22:user.firstname}"
-                maxlength="${23:32}">
-        </oui-field>
-        <oui-field
-            data-label="${24:Lastname}"
-            data-size="${25:xl}">
-            <input
-                class="oui-input"
-                type="${26:text}"
-                name="${27:lastname}"
-                data-ng-model="$ctrl.${28:user.lastname}"
-                maxlength="${29:32}">
-        </oui-field>
-        <oui-field
-            data-label="${30:Description}"
-            data-size="${31:xl}">
-            <oui-textarea
-                data-model="$ctrl.${32:user.description}"
-                data-name="${33:description}"
-                data-placeholder="${34:Please insert your text...}"
-                maxlength="${35:10}">
-            </oui-textarea>
+                type="text"
+                name="${19:firstname}"
+                data-ng-model="\$ctrl.${20:user.firstname}"
+                maxlength="${21:32}">
         </oui-field>
     </oui-step-form>
     <oui-step-form
-        data-header="${36:Custom validation and navigation}"
-        data-navigation="$ctrl.${37:isValid}"
-        data-valid="$ctrl.${37:isValid}">
-        <button
-            class="oui-button"
-            type="button"
-            data-ng-class="{
-                'oui-button_primary': $ctrl.${37:isValid},
-                'oui-button_secondary': !$ctrl.${37:isValid}
-            }"
-            data-ng-click="$ctrl.isValid = !$ctrl.${37:isValid}">
-            ${38:Toggle navigation &amp; validation}
-        </button>
+        data-header="${22:Step 3}"
+        data-description="${23:This is a description}"
+        data-on-cancel="\$ctrl.${24:onCancel()}"
+        data-on-focus="\$ctrl.${25:onFocus()}"
+        data-on-submit="\$ctrl.${26:onSubmit(form)}"
+        data-skippable>
         <oui-field
-            data-label="${39:Lorem ipsum}"
-            data-size="${40:xl}">
+            data-label="${27:Lastname}"
+            data-size="${28:xl}">
             <input
                 class="oui-input"
-                name="${41:customValidationInput}"
-                type="${42:text}"
-                autocomplete="${43:off}"
-                required
-                data-ng-model="$ctrl.${44:skippableInput}">
+                type="text"
+                name="${29:lastname}"
+                data-ng-model="\$ctrl.${30:user.lastname}"
+                maxlength="${31:32}">
         </oui-field>
     </oui-step-form>
 </oui-stepper>

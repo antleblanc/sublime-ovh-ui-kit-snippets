@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<oui-spinner data-size="m"></oui-spinner>
+<oui-spinner></oui-spinner>
 ]]></content>
   <tabTrigger>oui-spinner</tabTrigger>
   <scope>text.html</scope>

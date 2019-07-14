@@ -3,7 +3,7 @@
 <oui-progress>
     <oui-progress-bar
         data-type="${1:info}"
-        data-value="\$ctrl.${2:progressData.value}">
+        value="\$ctrl.${2:percentage}">
     </oui-progress-bar>
 </oui-progress>
 ]]></content>

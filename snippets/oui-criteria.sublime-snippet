@@ -1,9 +1,10 @@
 <snippet>
   <content><![CDATA[
 <oui-criteria
-    data-model="\$ctrl.${1:basicModel}"
-    data-properties="\$ctrl.${2:inputValue}"
-    data-searchable>
+    disabled="\$ctrl.${1:disabled}"
+    data-model="\$ctrl.${2:model}"
+    data-on-change="\$ctrl.${3:onChange(modelValue)}"
+    data-properties="\$ctrl.${4:properties}">
 </oui-criteria>
 ]]></content>
   <tabTrigger>oui-criteria</tabTrigger>

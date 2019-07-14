@@ -1,8 +1,9 @@
 <snippet>
   <content><![CDATA[
 <oui-file
-    data-model="\$ctrl.${1:modelBasic}"
-    placeholder="${2:Placeholder example}">
+    disabled="\$ctrl.${1:disabled}"
+    placeholder="${2:Select a file…}"
+    data-model="\$ctrl.${3:model}">
 </oui-file>
 ]]></content>
   <tabTrigger>oui-file</tabTrigger>

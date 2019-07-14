@@ -1,14 +1,25 @@
 <snippet>
   <content><![CDATA[
-<oui-action-menu data-text="${1:Actions}">
-    <oui-action-menu-item href="${2:#}">${3:Action 1 (link)}</oui-action-menu-item>
-    <oui-action-menu-item data-on-click="\$ctrl.${4:onActionClick()}">${5:Action 2 (button)}</oui-action-menu-item>
-    <oui-action-menu-item data-disabled>${6:Action 3 (disabled)}</oui-action-menu-item>
+<oui-action-menu
+    data-text="${1:Actions}"
+    data-disabled="\$ctrl.${2:disabled}">
+    <oui-action-menu-item data-on-click="\$ctrl.${3:onActionClick('Action 1')}">
+        ${4:Action 1 (button)}
+    </oui-action-menu-item>
+    <oui-action-menu-item
+        data-on-click="\$ctrl.${5:onActionClick('Action 2')}"
+        data-href="${6}">
+        ${7:Action 2 (link)}
+    </oui-action-menu-item>
+    <oui-action-menu-item ${8:disabled}>
+        ${9:Action 3 (disabled)}
+    </oui-action-menu-item>
     <oui-action-menu-divider></oui-action-menu-divider>
     <oui-action-menu-item
-        href="${7:#}"
+        data-on-click="\$ctrl.${10:onActionClick('External link')}"
+        data-href="${11}"
         data-external>
-        ${8:External link}
+        ${12:External link}
     </oui-action-menu-item>
 </oui-action-menu>
 ]]></content>

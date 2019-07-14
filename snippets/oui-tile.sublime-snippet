@@ -1,27 +1,10 @@
 <snippet>
   <content><![CDATA[
-<oui-tile data-heading="${1:Title}">
-    <oui-tile-definition
-        data-term="${2:Term}"
-        data-description="${3:This is a description}">
-    </oui-tile-definition>
-    <oui-tile-definition data-term="${4:Term}">
-        <oui-tile-description>${5:This is a description}</oui-tile-description>
-    </oui-tile-definition>
-    <oui-tile-definition
-        data-term="${6:Term}"
-        data-term-popover="${7:This is a popover text}"
-        data-description="${8:This is a description}">
-    </oui-tile-definition>
-    <oui-tile-definition
-        data-term="${9:Term}"
-        data-description="${10:This is a description}">
-        <oui-action-menu
-            data-compact
-            data-align="end">
-            <oui-action-menu-item data-text="${11:Action 1}"></oui-action-menu-item>
-        </oui-action-menu>
-    </oui-tile-definition>
+<oui-tile
+    data-heading="${1:An awesome title for an awesome tile}"
+    data-description="${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit.}"
+    data-loading="\$ctrl.${3:loading}">
+    ${4:Sed tempus sapien erat, et molestie magna tristique non. Sed tincidunt eu augue tempor consectetur. Nullam iaculis, nibh mollis vulputate elementum, neque est iaculis nisi, et gravida turpis erat non dui. Nunc eget tortor et enim interdum euismod sed eget purus. Integer in metus ultrices, ultricies lacus in, fermentum nisi. Cras sed neque id dui fermentum faucibus. Mauris mollis arcu justo, eget convallis massa volutpat ac.}
 </oui-tile>
 ]]></content>
   <tabTrigger>oui-tile</tabTrigger>

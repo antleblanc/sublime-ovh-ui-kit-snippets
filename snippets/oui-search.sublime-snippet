@@ -1,8 +1,12 @@
 <snippet>
   <content><![CDATA[
 <oui-search
-    data-model="\$ctrl.${1:modelValue}"
-    placeholder="${2:Placeholder example}">
+    disabled="\$ctrl.${1:disabled}"
+    data-model="\$ctrl.${2:model}"
+    data-on-change="\$ctrl.${3:onChange(modelValue)}"
+    data-on-reset="\$ctrl.${4:onReset()}"
+    data-on-submit="\$ctrl.${5:onSubmit(modelValue)}"
+    placeholder="${6:Placeholder example}">
 </oui-search>
 ]]></content>
   <tabTrigger>oui-search</tabTrigger>

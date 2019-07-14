@@ -1,30 +1,34 @@
 <snippet>
   <content><![CDATA[
-<oui-slideshow>
+<oui-slideshow
+    data-loading="\$ctrl.${1:loading}"
+    data-loop="\$ctrl.${2:loop}"
+    data-on-dismiss="\$ctrl.${3:onDismiss()}"
+    data-on-panel-change="\$ctrl.${4:onPanelChange(direction, index)}">
     <oui-slideshow-panel
-        data-heading="${1:New feature}"
-        data-picture="${2:https://upload.wikimedia.org/wikipedia/commons/4/4a/Cercle_rouge_100%25.svg}">
-        ${3:Display your infrastructure as a list}
+        data-heading="${5:New feature}"
+        data-picture="${6:https://upload.wikimedia.org/wikipedia/commons/4/4a/Cercle_rouge_100%25.svg}">
+        ${7:Display your infrastructure as a list}
     </oui-slideshow-panel>
     <oui-slideshow-panel
-        data-heading="${4:Introducing Ad-Sync}"
-        data-picture="${5:https://upload.wikimedia.org/wikipedia/commons/4/4a/Cercle_rouge_100%25.svg}"
-        href="${6:http://www.ovh.com/}"
-        data-label="${7:Discover}">
-        ${8:Designed to help you synchronize your local Active Directory with your OVH Active Directory.}
-    </oui-slideshow-panel>
-    <oui-slideshow-panel
-        data-heading="${9:New features available in your emails pages}"
-        href="${10:http://www.ovh.com/}"
+        data-heading="${8:Introducing Ad-Sync}"
+        data-picture="${9:https://upload.wikimedia.org/wikipedia/commons/4/4a/Cercle_rouge_100%25.svg}"
+        data-on-click="\$ctrl.${10:onPanelClick('Panel 2')}"
         data-label="${11:Discover}">
-        ${12:Introducing Ad-Sync, designed to help you synchronize your local Active Directory with your OVH Active Directory.}
+        ${12:Designed to help you synchronize your local Active Directory with your OVH Active Directory.}
     </oui-slideshow-panel>
     <oui-slideshow-panel
-        data-heading="${13:Introducing Ad-Sync}"
-        data-picture="${14:https://upload.wikimedia.org/wikipedia/commons/4/4a/Cercle_rouge_100%25.svg}"
-        href="${15:http://www.ovh.com/}"
-        data-label="${16:Discover}">
-        ${17:Designed to help you synchronize your local Active Directory with your OVH Active Directory.}
+        data-heading="${13:New features available in your emails pages}"
+        data-on-click="\$ctrl.${14:onPanelClick('Panel 3')}"
+        data-label="${15:Discover}">
+        ${16:Introducing Ad-Sync, designed to help you synchronize your local Active Directory with your OVH Active Directory.}
+    </oui-slideshow-panel>
+    <oui-slideshow-panel
+        data-heading="${17:Introducing Ad-Sync}"
+        data-picture="${18:https://upload.wikimedia.org/wikipedia/commons/4/4a/Cercle_rouge_100%25.svg}"
+        data-on-click="\$ctrl.${19:onPanelClick('Panel 4')}"
+        data-label="${20:Discover}">
+        ${21:Designed to help you synchronize your local Active Directory with your OVH Active Directory.}
     </oui-slideshow-panel>
 </oui-slideshow>
 ]]></content>

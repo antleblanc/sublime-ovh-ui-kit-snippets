@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<oui-skeleton data-size="auto"></oui-skeleton>
+<oui-skeleton></oui-skeleton>
 ]]></content>
   <tabTrigger>oui-skeleton</tabTrigger>
   <scope>text.html</scope>

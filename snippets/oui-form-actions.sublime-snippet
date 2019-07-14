@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<oui-form-actions disabled="\$ctrl.${1:disabled}"></oui-form-actions>
+]]></content>
+  <tabTrigger>oui-form-actions</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-form-actions</description>
+</snippet>

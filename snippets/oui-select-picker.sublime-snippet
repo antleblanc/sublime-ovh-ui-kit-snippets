@@ -1,12 +1,33 @@
 <snippet>
   <content><![CDATA[
 <oui-select-picker
-    data-name="${1:ouiSelectPicker1}"
-    data-match="${2:name}"
-    data-model="\$ctrl.${3:value1}"
-    data-label="${4:Value A or B}"
-    data-values="${5:[{id:'a', name: 'Value A'\}, {id:'b', name: 'Value B'\}]}">
-</oui-select-picker>
+     disabled="\$ctrl.${1:disabled}"
+     name="${1:ouiSelectPicker1}"
+     data-match="${2:name}"
+     data-model="\$ctrl.${3:model}"
+     data-label="${4:Value A or B}"
+     data-on-change="\$ctrl.${7:onChange(modelValue)}"
+     data-values="\$ctrl.${8:values1}">
+ </oui-select-picker>
+ <oui-select-picker
+     disabled="\$ctrl.disabled"
+     name="${1:ouiSelectPicker1}"
+     data-match="${2:name}"
+     data-model="\$ctrl.${3:model}"
+     data-label="${5:Value C}"
+     data-on-change="\$ctrl.${7:onChange(modelValue)}"
+     data-values="\$ctrl.${9:values2}">
+ </oui-select-picker>
+ <oui-select-picker
+     disabled="\$ctrl.disabled"
+     name="${1:ouiSelectPicker1}"
+     data-match="${2:name}"
+     data-model="\$ctrl.${3:model}"
+     data-placeholder="Select"
+     data-label="${6:Value D, E or F"
+     data-on-change="\$ctrl.${7:onChange(modelValue)}"
+     data-values="\$ctrl.${10:values3}">
+ </oui-select-picker>
 ]]></content>
   <tabTrigger>oui-select-picker</tabTrigger>
   <scope>text.html</scope>

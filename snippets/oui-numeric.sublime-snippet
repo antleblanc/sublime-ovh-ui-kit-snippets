@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
 <oui-numeric
-    min="${1:2}"
-    max="${2:8}"
-    data-model="\$ctrl.${3:size}">
+    data-model="\$ctrl.${1:model}"
+    disabled="\$ctrl.${2:disabled}"
+    data-on-change="\$ctrl.${3:onChange(modelValue)}">
 </oui-numeric>
 ]]></content>
   <tabTrigger>oui-numeric</tabTrigger>

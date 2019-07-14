@@ -1,11 +1,6 @@
 <snippet>
   <content><![CDATA[
-<oui-message
-    aria-close-button-label="${1:Close}"
-    data-type="${2:info}"
-    data-dismissable>
-    ${3:Message}
-</oui-message>
+<oui-message data-type="${1:info}">${2:Message}</oui-message>
 ]]></content>
   <tabTrigger>oui-message</tabTrigger>
   <scope>text.html</scope>

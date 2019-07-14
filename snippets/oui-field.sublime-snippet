@@ -7,12 +7,12 @@
     <input
         class="oui-input"
         type="text"
-        id="lastname"
-        name="lastname"
-        data-ng-model="\$ctrl.${4:user.lastname}"
+        id="${4:lastname}"
+        name="${4:lastname}"
+        data-ng-model="\$ctrl.${5:user.lastname}"
         required
-        minlength="3"
-        maxlength="32">
+        minlength="${6:3}"
+        maxlength="${7:32}">
 </oui-field>
 ]]></content>
   <tabTrigger>oui-field</tabTrigger>

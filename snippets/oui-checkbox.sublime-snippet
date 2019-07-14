@@ -1,6 +1,11 @@
 <snippet>
   <content><![CDATA[
-<oui-checkbox data-model="\$ctrl.${1:checked}">${2:Normal}</oui-checkbox>
+<oui-checkbox
+    aria-label="${1:Allow ponies in your server}"
+    data-model="\$ctrl.${2:model2}"
+    data-on-change="\$ctrl.${3:onChange(modelValue)}">
+    ${4:Allow ponies in your server}
+</oui-checkbox>
 ]]></content>
   <tabTrigger>oui-checkbox</tabTrigger>
   <scope>text.html</scope>

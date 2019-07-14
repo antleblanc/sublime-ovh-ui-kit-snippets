@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
 <oui-switch
-    id="${1:switch}"
-    name="${1:switch-name}"
-    data-model="${3:false}">
+    disabled="\$ctrl.${1:disabled}"
+    data-model="\$ctrl.${2:checked}"
+    data-on-change="\$ctrl.${3:onChange(modelValue)}">
 </oui-switch>
 ]]></content>
   <tabTrigger>oui-switch</tabTrigger>

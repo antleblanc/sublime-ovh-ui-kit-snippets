@@ -1,21 +1,20 @@
 <snippet>
   <content><![CDATA[
-<oui-guide-menu
-    data-text="${1:Guides}"
-    data-align="${2:start}">
-    <oui-guide-menu-group data-label="${3:Section 1}">
-        <oui-guide-menu-item href="${4:#}">${5:Guide 1 (link)}</oui-guide-menu-item>
-        <oui-guide-menu-item data-on-click="\$ctrl.${6:onActionClick()}">${7:Guide 2 (button)}</oui-guide-menu-item>
-    </oui-guide-menu-group>
-    <oui-guide-menu-group data-label="${8:Section 2}">
-        <oui-guide-menu-item href="${9:#}">${10:Guide 1 (link)}</oui-guide-menu-item>
-        <oui-guide-menu-item data-on-click="\$ctrl.${11:onActionClick()}">${12:Guide 2 (button)}</oui-guide-menu-item>
-    </oui-guide-menu-group>
+<oui-guide-menu data-text="${1:Guides}">
+    <oui-guide-menu-item data-on-click="\$ctrl.${2:onGuideClick()}">
+        ${3:Guide 2 (button)}
+    </oui-guide-menu-item>
+    <oui-guide-menu-item
+        data-on-click="\$ctrl.${4:onGuideClick()}"
+        href="${5}">
+        ${6:Guide 1 (link)}
+    </oui-guide-menu-item>
     <oui-guide-menu-divider></oui-guide-menu-divider>
     <oui-guide-menu-item
-        href="${13:#}"
+        data-on-click="\$ctrl.${7:onGuideClick()}"
+        href="${8}"
         data-external>
-        ${15:External link}
+        ${9:External link}
     </oui-guide-menu-item>
 </oui-guide-menu>
 ]]></content>

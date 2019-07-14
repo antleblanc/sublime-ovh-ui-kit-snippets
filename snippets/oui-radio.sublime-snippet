@@ -1,10 +1,12 @@
 <snippet>
   <content><![CDATA[
 <oui-radio
-    data-name="${1:oui-radio-1}"
-    data-model="\$ctrl.${2:value1}"
-    data-value="${3:'a'}">
-    ${4:Value A}
+    disabled="\$ctrl.${1:disabled}"
+    data-model="\$ctrl.${2:model}"
+    name="${3:oui-radio-1}"
+    data-on-change="\$ctrl.${4:onChange(modelValue)}"
+    value="\$ctrl.${5:value1}">
+    ${6:Value A}
 </oui-radio>
 ]]></content>
   <tabTrigger>oui-radio</tabTrigger>
