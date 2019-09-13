@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Examples</title>
+    <!-- Peer dependencies -->
+    <link rel="stylesheet" href="https://unpkg.com/flatpickr@latest/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/ui-select@latest/dist/select.min.css">
+    <!-- /Peer dependencies -->
+    <link rel="stylesheet" href="https://unpkg.com/@ovh-ux/ui-kit@4.0.0-rc.4/dist/css/oui.css">
+    <style>
+      html, body {
+        height: 100%;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body ng-app="myApp"
+    ng-controller="MyCtrl as $ctrl">
+
+    <div class="wrapper">
+
+      <!-- Insert snippets here -->
+
+      <!-- /Insert snippets here -->
+
+    </div>
+
+    <script src="https://unpkg.com/angular@latest/angular.js"></script>
+
+    <!-- Peer dependencies -->
+    <script src="https://unpkg.com/@uirouter/angularjs@latest/release/angular-ui-router.js"></script>
+    <script src="https://unpkg.com/angular-aria@latest/angular-aria.min.js"></script>
+    <script src="https://unpkg.com/angular-sanitize@latest/angular-sanitize.min.js"></script>
+    <script src="https://unpkg.com/bloodhound-js@latest/dist/bloodhound.min.js"></script>
+    <script src="https://unpkg.com/clipboard@latest/dist/clipboard.min.js"></script>
+    <script src="https://unpkg.com/flatpickr@latest/dist/flatpickr.min.js"></script>
+    <script src="https://unpkg.com/popper.js@latest/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/ui-select@latest/dist/select.min.js"></script>
+    <!-- /Peer dependencies -->
+    <script src="https://unpkg.com/@ovh-ux/ui-kit@latest/dist/js/oui.js"></script>
+
+    <script>
+      const MyCtrl = class MyCtrl {
+        $onInit() {
+          console.log('Hello world!');
+        }
+      };
+
+      const myApp = angular
+        .module('myApp', [
+          'ngAria',
+          'ngSanitize',
+          'oui',
+          'ui.router',
+        ])
+        .controller('MyCtrl', MyCtrl);
+    </script>
+  </body>
+</html>
