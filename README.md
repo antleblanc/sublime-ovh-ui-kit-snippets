@@ -6,6 +6,8 @@
 
 [![OVH UI Kit documentation](media/screenshot.png)](https://ovh-ux.github.io/ovh-ui-kit-documentation/#!/documentation/introduction)
 
+**Disclaimer**: OVH UI Kit Snippets for Sublime Text it is not an official OVH product.
+
 ## Usage
 
 | Prefix              | Example                                                  | Source                                             |
