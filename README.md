@@ -1,10 +1,10 @@
-# OVH UI Kit Snippets for [Sublime Text](https://www.sublimetext.com)
+# OVHcloud UI Kit Snippets for [Sublime Text](https://www.sublimetext.com)
 
-> Collection of OVH UI Kit snippets for Sublime Text.
+> Collection of OVHcloud UI Kit snippets for Sublime Text.
 
-[![OVH UI Kit documentation](media/screenshot.png)](https://ovh-ux.github.io/ovh-ui-kit/)
+[![OVHcloud UI Kit documentation](media/screenshot.png)](https://ovh-ux.github.io/ovh-ui-kit/)
 
-**Disclaimer**: OVH UI Kit Snippets for Sublime Text it is not an official OVH product.
+**Disclaimer**: OVHcloud UI Kit Snippets for Sublime Text it is not an official OVHcloud product.
 
 ## Usage
 
@@ -51,9 +51,9 @@
 
 ## Related
 
-* [ovh-ui-kit](https://github.com/ovh-ux/ovh-ui-kit) - OVH UI Kit - Master UI Framework
-* [atom-ovh-ui-kit-snippets](https://github.com/antleblanc/atom-ovh-ui-kit-snippets) - Collection of OVH UI Kit snippets for Atom
-* [vscode-ovh-ui-kit-snippets](https://github.com/antleblanc/vscode-ovh-ui-kit-snippets) - Collection of OVH UI Kit snippets for Visual Studio Code
+* [ovh-ui-kit](https://github.com/ovh-ux/ovh-ui-kit) - OVHcloud UI Kit - Master UI Framework
+* [atom-ovh-ui-kit-snippets](https://github.com/antleblanc/atom-ovh-ui-kit-snippets) - Collection of OVHcloud UI Kit snippets for Atom
+* [vscode-ovh-ui-kit-snippets](https://github.com/antleblanc/vscode-ovh-ui-kit-snippets) - Collection of OVHcloud UI Kit snippets for Visual Studio Code
 
 ## License
 
