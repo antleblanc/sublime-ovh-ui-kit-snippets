@@ -2,7 +2,7 @@
 
 > Collection of OVH UI Kit snippets for Sublime Text.
 
-[![OVH UI Kit documentation](media/screenshot.png)](https://ovh-ux.github.io/ovh-ui-kit-documentation/#!/documentation/introduction)
+[![OVH UI Kit documentation](media/screenshot.png)](https://ovh-ux.github.io/ovh-ui-kit/)
 
 **Disclaimer**: OVH UI Kit Snippets for Sublime Text it is not an official OVH product.
 
