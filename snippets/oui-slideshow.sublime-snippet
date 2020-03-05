@@ -15,20 +15,20 @@
         data-picture="${9:https://upload.wikimedia.org/wikipedia/commons/4/4a/Cercle_rouge_100%25.svg}"
         data-on-click="\$ctrl.${10:onPanelClick('Panel 2')}"
         data-label="${11:Discover}">
-        ${12:Designed to help you synchronize your local Active Directory with your OVH Active Directory.}
+        ${12:Designed to help you synchronize your local Active Directory with your OVHcloud Active Directory.}
     </oui-slideshow-panel>
     <oui-slideshow-panel
         data-heading="${13:New features available in your emails pages}"
         data-on-click="\$ctrl.${14:onPanelClick('Panel 3')}"
         data-label="${15:Discover}">
-        ${16:Introducing Ad-Sync, designed to help you synchronize your local Active Directory with your OVH Active Directory.}
+        ${16:Introducing Ad-Sync, designed to help you synchronize your local Active Directory with your OVHcloud Active Directory.}
     </oui-slideshow-panel>
     <oui-slideshow-panel
         data-heading="${17:Introducing Ad-Sync}"
         data-picture="${18:https://upload.wikimedia.org/wikipedia/commons/4/4a/Cercle_rouge_100%25.svg}"
         data-on-click="\$ctrl.${19:onPanelClick('Panel 4')}"
         data-label="${20:Discover}">
-        ${21:Designed to help you synchronize your local Active Directory with your OVH Active Directory.}
+        ${21:Designed to help you synchronize your local Active Directory with your OVHcloud Active Directory.}
     </oui-slideshow-panel>
 </oui-slideshow>
 ]]></content>
