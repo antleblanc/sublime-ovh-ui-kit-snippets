@@ -2,7 +2,7 @@
 
 > Collection of OVHcloud UI Kit snippets for Sublime Text.
 
-[![OVHcloud UI Kit documentation](media/screenshot.png)](https://ovh-ux.github.io/ovh-ui-kit/)
+[![OVHcloud UI Kit documentation](media/screenshot.png)](https://ovh.github.io/ovh-ui-kit/)
 
 **Disclaimer**: OVHcloud UI Kit Snippets for Sublime Text it is not an official OVHcloud product.
 
@@ -51,7 +51,7 @@
 
 ## Related
 
-* [ovh-ui-kit](https://github.com/ovh-ux/ovh-ui-kit) - OVHcloud UI Kit - Master UI Framework
+* [ovh-ui-kit](https://github.com/ovh/ovh-ui-kit) - OVHcloud UI Kit - Master UI Framework
 * [atom-ovh-ui-kit-snippets](https://github.com/antleblanc/atom-ovh-ui-kit-snippets) - Collection of OVHcloud UI Kit snippets for Atom
 * [vscode-ovh-ui-kit-snippets](https://github.com/antleblanc/vscode-ovh-ui-kit-snippets) - Collection of OVHcloud UI Kit snippets for Visual Studio Code
 
@@ -59,80 +59,80 @@
 
 MIT © [Antoine Leblanc](https://antleblanc.me)
 
-[oui-action-menu-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-action-menu--simple
-[oui-autocomplete-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/directives-autocomplete--array-of-strings
-[oui-back-button-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-back-button--simple
-[oui-button-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-button--simple-button
-[oui-calendar-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-calendar--simple-date-selector
-[oui-checkbox-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-checkbox--simple-checkbox
-[oui-chips-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-chips--default
-[oui-clipboard-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-clipboard--default
-[oui-collapsible-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-collapsible--default
-[oui-criteria-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/internal-criteria--default
-[oui-dropdown-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-dropdown--simple
-[oui-dual-list-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-dual-list--array-of-strings
-[oui-field-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-field--input
-[oui-file-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-file--simple-file-selector
-[oui-form-actions-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-form-actions--simple
-[oui-guide-menu-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-guide-menu--simple
-[oui-header-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-header--simple
-[oui-inline-adder-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-inline-adder--simple
-[oui-message-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-message--normal
-[oui-modal-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-modal--simple
-[oui-navbar-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-navbar--simple
-[oui-numeric-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-numeric--simple
-[oui-pagination-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/internal-pagination--one-page
-[oui-password-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-password--normal
-[oui-progress-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-progress--variants
-[oui-radio-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-radio--simple
-[oui-search-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-search--simple
-[oui-select-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-select--array-of-strings
-[oui-select-picker-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-select-picker--basic
-[oui-skeleton-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-skeleton--default
-[oui-slideshow-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-slideshow--simple
-[oui-spinner-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-spinner--default
-[oui-stepper-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-stepper--simple
-[oui-switch-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-switch--simple
-[oui-tabs-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-tabs--simple
-[oui-textarea-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-textarea--simple
-[oui-tile-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-tile--simple
-[oui-timepicker-example]: https://ovh-ux.github.io/ovh-ui-kit/?path=/story/components-timepicker--simple
+[oui-action-menu-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-action-menu--simple
+[oui-autocomplete-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/directives-autocomplete--array-of-strings
+[oui-back-button-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-back-button--simple
+[oui-button-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-button--simple-button
+[oui-calendar-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-calendar--simple-date-selector
+[oui-checkbox-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-checkbox--simple-checkbox
+[oui-chips-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-chips--default
+[oui-clipboard-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-clipboard--default
+[oui-collapsible-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-collapsible--default
+[oui-criteria-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/internal-criteria--default
+[oui-dropdown-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-dropdown--simple
+[oui-dual-list-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-dual-list--array-of-strings
+[oui-field-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-field--input
+[oui-file-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-file--simple-file-selector
+[oui-form-actions-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-form-actions--simple
+[oui-guide-menu-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-guide-menu--simple
+[oui-header-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-header--simple
+[oui-inline-adder-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-inline-adder--simple
+[oui-message-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-message--normal
+[oui-modal-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-modal--simple
+[oui-navbar-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-navbar--simple
+[oui-numeric-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-numeric--simple
+[oui-pagination-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/internal-pagination--one-page
+[oui-password-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-password--normal
+[oui-progress-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-progress--variants
+[oui-radio-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-radio--simple
+[oui-search-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-search--simple
+[oui-select-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-select--array-of-strings
+[oui-select-picker-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-select-picker--basic
+[oui-skeleton-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-skeleton--default
+[oui-slideshow-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-slideshow--simple
+[oui-spinner-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-spinner--default
+[oui-stepper-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-stepper--simple
+[oui-switch-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-switch--simple
+[oui-tabs-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-tabs--simple
+[oui-textarea-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-textarea--simple
+[oui-tile-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-tile--simple
+[oui-timepicker-example]: https://ovh.github.io/ovh-ui-kit/?path=/story/components-timepicker--simple
 
-[oui-action-menu-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/action-menu
-[oui-autocomplete-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/autocomplete
-[oui-back-button-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/back-button
-[oui-button-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/button
-[oui-calendar-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/calendar
-[oui-checkbox-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/checkbox
-[oui-chips-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/chips
-[oui-clipboard-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/clipboard
-[oui-collapsible-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/collapsible
-[oui-criteria-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/criteria
-[oui-dropdown-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/dropdown
-[oui-dual-list-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/dual-list
-[oui-field-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/field
-[oui-file-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/file
-[oui-form-actions-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/form-actions
-[oui-guide-menu-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/guide-menu
-[oui-header-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/header
-[oui-inline-adder-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/inline-adder
-[oui-message-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/message
-[oui-modal-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/modal
-[oui-navbar-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/navbar
-[oui-numeric-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/numeric
-[oui-pagination-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/pagination
-[oui-password-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/password
-[oui-progress-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/progress
-[oui-radio-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/radio
-[oui-search-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/search
-[oui-select-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/select
-[oui-select-picker-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/select-picker
-[oui-skeleton-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/skeleton
-[oui-slideshow-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/slideshow
-[oui-spinner-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/spinner
-[oui-stepper-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/stepper
-[oui-switch-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/switch
-[oui-tabs-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/tabs
-[oui-textarea-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/textarea
-[oui-tile-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/tile
-[oui-timepicker-code]: https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/timepicker
+[oui-action-menu-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/action-menu
+[oui-autocomplete-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/autocomplete
+[oui-back-button-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/back-button
+[oui-button-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/button
+[oui-calendar-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/calendar
+[oui-checkbox-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/checkbox
+[oui-chips-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/chips
+[oui-clipboard-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/clipboard
+[oui-collapsible-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/collapsible
+[oui-criteria-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/criteria
+[oui-dropdown-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/dropdown
+[oui-dual-list-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/dual-list
+[oui-field-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/field
+[oui-file-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/file
+[oui-form-actions-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/form-actions
+[oui-guide-menu-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/guide-menu
+[oui-header-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/header
+[oui-inline-adder-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/inline-adder
+[oui-message-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/message
+[oui-modal-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/modal
+[oui-navbar-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/navbar
+[oui-numeric-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/numeric
+[oui-pagination-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/pagination
+[oui-password-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/password
+[oui-progress-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/progress
+[oui-radio-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/radio
+[oui-search-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/search
+[oui-select-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/select
+[oui-select-picker-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/select-picker
+[oui-skeleton-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/skeleton
+[oui-slideshow-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/slideshow
+[oui-spinner-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/spinner
+[oui-stepper-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/stepper
+[oui-switch-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/switch
+[oui-tabs-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/tabs
+[oui-textarea-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/textarea
+[oui-tile-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/tile
+[oui-timepicker-code]: https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/timepicker
