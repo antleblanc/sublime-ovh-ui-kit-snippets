@@ -1,3 +1,8 @@
+## 3.0.0 - Upgrade to OVH UI Kit v4
+* feat(snippets): upgrade to ovh-ui-kit v4
+* docs: update example page
+* docs: update readme.md file
+
 ## 2.0.1 - Small bug fixes
 * oui-select-picker: use the right tab stop order
 
