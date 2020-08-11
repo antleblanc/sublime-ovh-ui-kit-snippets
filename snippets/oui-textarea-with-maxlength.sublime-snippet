@@ -4,12 +4,12 @@
     disabled="\$ctrl.${1:disabled}"
     model="\$ctrl.${2:model}"
     on-change="\$ctrl.${3:onChange(modelValue)}"
-    placeholder="${4:Please insert your text…}"
-    readonly="\$ctrl.${5:readonly}"
+    maxlength="${4:250}"
+    placeholder="${5:Please insert your text…}"
     rows="${6:5}">
 </oui-textarea>
 ]]></content>
-  <tabTrigger>oui-textarea</tabTrigger>
+  <tabTrigger>oui-textarea-with-maxlength</tabTrigger>
   <scope>text.html</scope>
-  <description>oui-textarea</description>
+  <description>oui-textarea-with-maxlength</description>
 </snippet>
