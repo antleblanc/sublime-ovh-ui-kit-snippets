@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<oui-skeleton size="${1:xs}"></oui-skeleton>
+]]></content>
+  <tabTrigger>oui-skeleton-sizes</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-skeleton-sizes</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<oui-skeleton randomized></oui-skeleton>
+]]></content>
+  <tabTrigger>oui-skeleton-randomized-width</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-skeleton-randomized-width</description>
+</snippet>
