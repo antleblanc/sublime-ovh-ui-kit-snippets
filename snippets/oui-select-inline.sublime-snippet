@@ -5,12 +5,10 @@
     items="${2:['a', 'b', 'c']}"
     model="\$ctrl.${3:model}"
     placeholder="${4:Select a letter…}"
-    on-blur="\$ctrl.${5:onBlur()}"
-    on-change="\$ctrl.${6:onChange(modelValue)}"
-    on-focus="\$ctrl.${7:onFocus()}">
+    inline>
 </oui-select>
 ]]></content>
-  <tabTrigger>oui-select</tabTrigger>
+  <tabTrigger>oui-select-inline</tabTrigger>
   <scope>text.html</scope>
-  <description>oui-select</description>
+  <description>oui-select-inline</description>
 </snippet>

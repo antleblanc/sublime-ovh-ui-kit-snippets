@@ -3,30 +3,28 @@
 <oui-select-picker
     disabled="\$ctrl.${1:disabled}"
     name="${2:ouiSelectPicker1}"
-    data-match="name"
-    data-model="\$ctrl.${3:model}"
-    data-label="${4:Value A or B}"
-    data-on-change="\$ctrl.${7:onChange(modelValue)}"
-    data-values="\$ctrl.${8:values1}">
- </oui-select-picker>
- <oui-select-picker
+    model="\$ctrl.${3:model}"
+    label="${4:Value A}"
+    on-change="\$ctrl.${5:onChange(modelValue)}"
+    values="\$ctrl.${6:values1}">
+</oui-select-picker>
+
+<oui-select-picker
     disabled="\$ctrl.${1:disabled}"
     name="${2:ouiSelectPicker1}"
-    data-match="name"
-    data-model="\$ctrl.${3:model}"
-    data-label="${5:Value C}"
-    data-on-change="\$ctrl.${7:onChange(modelValue)}"
-    data-values="\$ctrl.${9:values2}">
- </oui-select-picker>
- <oui-select-picker
+    model="\$ctrl.${3:model}"
+    label="${7:Value B}"
+    on-change="\$ctrl.${5:onChange(modelValue)}"
+    values="\$ctrl.${8:values2}">
+</oui-select-picker>
+
+<oui-select-picker
     disabled="\$ctrl.${1:disabled}"
     name="${2:ouiSelectPicker1}"
-    match="name"
-    data-model="\$ctrl.${3:model}"
-    data-placeholder="${10:Select}"
-    data-label="${6:Value D, E or F}"
-    data-on-change="\$ctrl.${7:onChange(modelValue)}"
-    data-values="\$ctrl.${11:values3}">
+    model="\$ctrl.${3:model}"
+    label="${9:Value C}"
+    on-change="\$ctrl.${5:onChange(modelValue)}"
+    values="\$ctrl.${10:values3}">
 </oui-select-picker>
 ]]></content>
   <tabTrigger>oui-select-picker</tabTrigger>
