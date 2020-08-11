@@ -5,11 +5,12 @@
     model="\$ctrl.${2:model}"
     name="${3:oui-radio-1}"
     on-change="\$ctrl.${4:onChange(modelValue)}"
-    value="\$ctrl.${5:value1}">
+    value="\$ctrl.${5:value1}"
+    inline>
     ${6:Value A}
 </oui-radio>
 ]]></content>
-  <tabTrigger>oui-radio</tabTrigger>
+  <tabTrigger>oui-radio-inline</tabTrigger>
   <scope>text.html</scope>
-  <description>oui-radio</description>
+  <description>oui-radio-inline</description>
 </snippet>
