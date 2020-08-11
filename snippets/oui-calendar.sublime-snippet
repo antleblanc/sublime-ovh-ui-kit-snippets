@@ -2,10 +2,10 @@
   <content><![CDATA[
 <oui-calendar
     disabled="\$ctrl.${1:disabled}"
-    data-model="\$ctrl.${2:model}"
-    data-on-change="\$ctrl.${3:onChange(selectedDates, dateStr)}"
-    data-on-close="\$ctrl.${4:onClose(selectedDates, dateStr)}"
-    data-on-open="\$ctrl.${5:onOpen(selectedDates, dateStr)}"
+    model="\$ctrl.${2:model}"
+    on-change="\$ctrl.${3:onChange(selectedDates, dateStr)}"
+    on-close="\$ctrl.${4:onClose(selectedDates, dateStr)}"
+    on-open="\$ctrl.${5:onOpen(selectedDates, dateStr)}"
     placeholder="${6:YYYY-MM-DD}">
 </oui-calendar>
 ]]></content>

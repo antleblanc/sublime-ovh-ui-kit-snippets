@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<oui-calendar
+    model="\$ctrl.${1:model}"
+    week-numbers>
+</oui-calendar>
+]]></content>
+  <tabTrigger>oui-calendar-with-week-numbers</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-calendar-with-week-numbers</description>
+</snippet>
