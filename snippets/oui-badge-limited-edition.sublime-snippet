@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<span class="oui-badge oui-badge_limited-edition">${1:Limited Edition}</span>
+]]></content>
+  <tabTrigger>oui-badge-limited-edition</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-badge-limited-edition</description>
+</snippet>
