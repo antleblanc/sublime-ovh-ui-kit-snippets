@@ -1,10 +1,17 @@
 <snippet>
   <content><![CDATA[
 <oui-modal
-    data-heading="${1:Modal title}"
-    data-loading="\$ctrl.${2:isLoading}"
-    data-on-dismiss="\$ctrl.${3:onDismiss()}">
-    ${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper ligula nec fringilla tempor. In rhoncus ullamcorper feugiat. Phasellus vel ipsum vitae neque varius luctus. Proin id iaculis arcu. Fusce justo arcu, egestas vel nulla nec, dictum cursus lacus. Aenean elementum vel odio quis rutrum. In quis tellus in neque vulputate rhoncus vitae ut justo. Ut dignissim varius est in consequat. Donec nisi mauris, pellentesque condimentum congue in, blandit ut arcu. In et elit ipsum.}
+    heading="${1:Modal title}"
+    loading="\$ctrl.${2:isLoading}"
+    on-dismiss="\$ctrl.${3:onDismiss()}">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Duis semper ligula nec fringilla tempor. In rhoncus ullamcorper feugiat.
+    Phasellus vel ipsum vitae neque varius luctus. Proin id iaculis arcu.
+    Fusce justo arcu, egestas vel nulla nec, dictum cursus lacus.
+    Aenean elementum vel odio quis rutrum. In quis tellus in neque vulputate
+    rhoncus vitae ut justo. Ut dignissim varius est in consequat.
+    Donec nisi mauris, pellentesque condimentum congue in, blandit ut arcu.
+    In et elit ipsum.
 </oui-modal>
 ]]></content>
   <tabTrigger>oui-modal</tabTrigger>

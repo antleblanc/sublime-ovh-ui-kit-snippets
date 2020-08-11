@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<oui-modal
+    heading="${1:Modal title}"
+    type="${2:info}">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis semper ligula nec fringilla tempor. In rhoncus ullamcorper feugiat.
+        Phasellus vel ipsum vitae neque varius luctus.
+    </p>
+</oui-modal>
+]]></content>
+  <tabTrigger>oui-modal</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-modal</description>
+</snippet>
