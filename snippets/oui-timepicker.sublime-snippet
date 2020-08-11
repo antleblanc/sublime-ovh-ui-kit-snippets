@@ -2,10 +2,10 @@
   <content><![CDATA[
 <oui-timepicker
     disabled="\$ctrl.${1:disabled}"
-    data-model="\$ctrl.${2:model}"
-    data-on-change="\$ctrl.${3:onChange(modelValue)}"
-    data-on-close="\$ctrl.${4:onClose(modelValue)}"
-    data-on-open="\$ctrl.${5:onOpen(modelValue)}"
+    model="\$ctrl.${2:model}"
+    on-change="\$ctrl.${3:onChange(modelValue)}"
+    on-close="\$ctrl.${4:onClose(modelValue)}"
+    on-open="\$ctrl.${5:onOpen(modelValue)}"
     placeholder="${6:HH:MM}">
 </oui-timepicker>
 ]]></content>
