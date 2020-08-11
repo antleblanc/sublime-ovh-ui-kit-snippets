@@ -1,29 +1,19 @@
 <snippet>
   <content><![CDATA[
 <oui-inline-adder
-    data-on-add="\$ctrl.${1:onAdd(form)}"
-    data-on-change="\$ctrl.${2:onChange(form)}"
-    data-on-remove="\$ctrl.${3:onRemove(form)}">
+    on-add="\$ctrl.${1:onAdd(form)}"
+    on-change="\$ctrl.${2:onChange(form)}"
+    on-remove="\$ctrl.${3:onRemove(form)}">
     <oui-inline-adder-row>
         <oui-inline-adder-field>
-            <oui-field data-label="${4:Field 1}">
-                <input type="text"
-                    class="oui-input"
-                    name="${5:field1}"
-                    data-ng-model="${5:field1}"
-                    required>
+            <oui-field label="Field 1">
+                <input type="text" class="oui-input" name="field1" data-ng-model="field1" required>
             </oui-field>
         </oui-inline-adder-field>
-        <oui-inline-adder-field data-adaptive>
-            <oui-field
-                data-label="${6:Field 2}"
-                data-size="${7:m}">
+        <oui-inline-adder-field adaptive>
+            <oui-field label="Field 2" size="m">
                 <label class="oui-select">
-                    <select
-                        name="${8:field2}"
-                        data-ng-model="${8:field2}"
-                        class="oui-select__input"
-                        required>
+                    <select name="field2" data-ng-model="field2" class="oui-select__input" required>
                         <option value="" disabled selected>Select the OS</option>
                         <option value="freebsd">FreeBSD</option>
                         <option value="linux">Linux</option>
@@ -34,12 +24,9 @@
                 </label>
             </oui-field>
         </oui-inline-adder-field>
-        <oui-inline-adder-field data-adaptive>
-            <oui-field data-label="${9:Field 3}">
-                <oui-numeric
-                    name="${10:field3}"
-                    data-model="${11:field3}">
-                </oui-numeric>
+        <oui-inline-adder-field adaptive>
+            <oui-field label="Field 3">
+                <oui-numeric name="field3" model="field3"></oui-numeric>
             </oui-field>
         </oui-inline-adder-field>
     </oui-inline-adder-row>
