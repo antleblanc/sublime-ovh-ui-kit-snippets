@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+<oui-field label="${1:Label}"
+    size="${2:xs}">
+    <input class="oui-input"
+        name="${3:field-xs}"
+        placeholder="${4:Please insert your text…}"
+        type="text"
+        value="${5:Lorem ipsum dolor sit amet}">
+</oui-field>
+]]></content>
+  <tabTrigger>oui-field-size</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-field-size</description>
+</snippet>
