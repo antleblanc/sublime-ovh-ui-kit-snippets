@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+<oui-guide-menu text="${1:Guides}">
+    <oui-guide-menu-group label="${2:Section 1}">
+        <oui-guide-menu-item on-click="\$ctrl.${3:onGuideClick()}">
+            ${4:Guide 2 (button)}
+        </oui-guide-menu-item>
+        <oui-guide-menu-item on-click="\$ctrl.${5:onGuideClick()}" href="${6:#}">
+            ${7:Guide 1 (link)}
+        </oui-guide-menu-item>
+    </oui-guide-menu-group>
+    <oui-guide-menu-group label="${8:Section 2}">
+        <oui-guide-menu-item on-click="\$ctrl.${9:onGuideClick()}">
+            ${10:Guide 2 (button)}
+        </oui-guide-menu-item>
+        <oui-guide-menu-item on-click="\$ctrl.${11:onGuideClick()}" href="${12:#}">
+            ${13:Guide 1 (link)}
+        </oui-guide-menu-item>
+    </oui-guide-menu-group>
+    <oui-guide-menu-divider></oui-guide-menu-divider>
+    <oui-guide-menu-item on-click="\$ctrl.${14:onGuideClick()}" href="${15:#}" external>
+        ${16:External link}
+    </oui-guide-menu-item>
+</oui-guide-menu>
+]]></content>
+  <tabTrigger>oui-guide-menu-with-sections</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-guide-menu-with-sections</description>
+</snippet>
