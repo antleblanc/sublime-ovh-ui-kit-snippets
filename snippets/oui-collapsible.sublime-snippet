@@ -1,11 +1,10 @@
 <snippet>
   <content><![CDATA[
 <oui-collapsible
-    data-heading="${1:Title}"
+    heading="${1:Title}"
     aria-label="${2:Action}"
-    data-expanded="\$ctrl.${3:expanded}"
-    data-on-toggle="\$ctrl.${4:onToggle(expanded)}">
-    ${5:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper ligula nec fringilla tempor. In rhoncus ullamcorper feugiat. Phasellus vel ipsum vitae neque varius luctus. Proin id iaculis arcu. Fusce justo arcu, egestas vel nulla nec, dictum cursus lacus. Aenean elementum vel odio quis rutrum. In quis tellus in neque vulputate rhoncus vitae ut justo. Ut dignissim varius est in consequat. Donec nisi mauris, pellentesque condimentum congue in, blandit ut arcu. In et elit ipsum.}
+    on-toggle="\$ctrl.${3:onToggle(expanded)}">
+    ${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper ligula nec fringilla tempor. In rhoncus ullamcorper feugiat. Phasellus vel ipsum vitae neque varius luctus. Proin id iaculis arcu. Fusce justo arcu, egestas vel nulla nec, dictum cursus lacus. Aenean elementum vel odio quis rutrum. In quis tellus in neque vulputate rhoncus vitae ut justo. Ut dignissim varius est in consequat. Donec nisi mauris, pellentesque condimentum congue in, blandit ut arcu. In et elit ipsum.}
 </oui-collapsible>
 ]]></content>
   <tabTrigger>oui-collapsible</tabTrigger>

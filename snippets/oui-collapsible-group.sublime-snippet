@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+<oui-collapsible
+    heading="${1:Title}"
+    group="${2:lorem}"
+    on-toggle="\$ctrl.${3:onToggle('Collapsible 1', expanded)}">
+    ${4:Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam eveniet, commodi nisi officia iusto minus repellat magnam in vel? Nisi, ea? Nam cupiditate sint ullam temporibus perspiciatis, nostrum pariatur amet?}
+</oui-collapsible>
+
+<oui-collapsible
+    heading="${5:Title}"
+    group="${2:lorem}"
+    on-toggle="\$ctrl.${6:onToggle('Collapsible 2', expanded)}">
+    ${7:Corporis dicta porro labore repellendus accusantium. Aperiam dolore velit corrupti ex accusantium nihil doloremque rerum voluptate reprehenderit cum molestias cumque mollitia obcaecati, est saepe quod dolorum magni non quidem aliquid?}
+</oui-collapsible>
+]]></content>
+  <tabTrigger>oui-collapsible-group</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-collapsible-group</description>
+</snippet>
