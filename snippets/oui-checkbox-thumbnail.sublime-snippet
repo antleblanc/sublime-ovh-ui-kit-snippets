@@ -5,11 +5,12 @@
     model="\$ctrl.${2:model1}"
     name="${3:oui-checkbox-1}"
     on-change="\$ctrl.${4:onChange(modelValue)}"
-    value="\$ctrl.${5:value1}">
+    value="\$ctrl.${5:value1}"
+    thumbnail>
     ${6:Value A}
 </oui-checkbox>
 ]]></content>
-  <tabTrigger>oui-checkbox</tabTrigger>
+  <tabTrigger>oui-checkbox-thumbnail</tabTrigger>
   <scope>text.html</scope>
-  <description>oui-checkbox</description>
+  <description>oui-checkbox-thumbnail</description>
 </snippet>
