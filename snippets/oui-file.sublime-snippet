@@ -3,7 +3,7 @@
 <oui-file
     disabled="\$ctrl.${1:disabled}"
     placeholder="${2:Select a file…}"
-    data-model="\$ctrl.${3:model}">
+    model="\$ctrl.${3:model}">
 </oui-file>
 ]]></content>
   <tabTrigger>oui-file</tabTrigger>
