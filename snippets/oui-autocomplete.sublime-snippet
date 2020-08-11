@@ -5,8 +5,8 @@
     class="oui-input oui-input_inline"
     placeholder="${1:Search country name}"
     data-ng-model="\$ctrl.${2:model}"
-    data-oui-autocomplete="\$ctrl.${3:suggestions}"
-    data-oui-autocomplete-on-select="\$ctrl.${4:onAutocomplete(value)}">
+    oui-autocomplete="\$ctrl.${3:suggestions}"
+    oui-autocomplete-on-select="\$ctrl.${4:onAutocomplete(value)}">
 ]]></content>
   <tabTrigger>oui-autocomplete</tabTrigger>
   <scope>text.html</scope>
