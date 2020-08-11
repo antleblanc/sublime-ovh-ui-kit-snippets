@@ -1,9 +1,8 @@
 <snippet>
   <content><![CDATA[
 <oui-pagination
-    data-current-offset="${1:1}"
-    data-page-size="${2:100}"
-    data-total-items="${3:12}">
+    current-offset="${1:1}"
+    total-items="${2:100}">
 </oui-pagination>
 ]]></content>
   <tabTrigger>oui-pagination</tabTrigger>
