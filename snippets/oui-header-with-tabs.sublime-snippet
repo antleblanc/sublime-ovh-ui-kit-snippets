@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+<oui-header
+    heading="${1:My title}"
+    description="${2:My subtitle}">
+    <oui-header-tabs>
+        <oui-header-tabs-item href="${3:#}" active>${4:Home}</oui-header-tabs-item>
+        <oui-header-tabs-item href="${5:#}">${6:Header}</oui-header-tabs-item>
+        <oui-header-tabs-item href="${7:#}">${8:Header Tabs}</oui-header-tabs-item>
+        <oui-header-tabs-dropdown text="${9:Form}">
+            <oui-header-tabs-item href="${10:#}" disabled>${11:Field}</oui-header-tabs-item>
+            <oui-header-tabs-divider></oui-header-tabs-divider>
+            <oui-header-tabs-item href="${12:#}">${13:Checkbox}</oui-header-tabs-item>
+            <oui-header-tabs-item href="${14:#}">${15:Radio}</oui-header-tabs-item>
+        </oui-header-tabs-dropdown>
+        <oui-header-tabs-item href="${16:#}" disabled>${17:Pagination}</oui-header-tabs-item>
+        <oui-header-tabs-item href="${18:#}">${19:Datagrid}</oui-header-tabs-item>
+    </oui-header-tabs>
+</oui-header>
+]]></content>
+  <tabTrigger>oui-header-tabs</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-header-tabs</description>
+</snippet>
