@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<oui-progress>
+    <oui-progress-bar type="${1:info}"
+        value="\$ctrl.${2:percentage}">
+        Progress: {{\$ctrl.${2:percentage}}}%
+    </oui-progress-bar>
+</oui-progress>
+]]></content>
+  <tabTrigger>oui-progress-with-custom-label</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-progress-with-custom-label</description>
+</snippet>

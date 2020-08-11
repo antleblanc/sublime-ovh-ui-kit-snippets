@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<oui-clipboard data-model="\$ctrl.${2:model}"></oui-clipboard>
+<oui-clipboard model="\$ctrl.${1:model}"></oui-clipboard>
 ]]></content>
   <tabTrigger>oui-clipboard</tabTrigger>
   <scope>text.html</scope>

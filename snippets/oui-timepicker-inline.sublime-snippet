@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<oui-timepicker model="\$ctrl.${1:inlineModel}" inline></oui-timepicker>
+]]></content>
+  <tabTrigger>oui-timepicker-inline</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-timepicker-inline</description>
+</snippet>

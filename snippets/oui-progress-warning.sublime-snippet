@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<oui-progress>
+    <oui-progress-bar type="warning" value="\$ctrl.${1:percentage}"></oui-progress-bar>
+</oui-progress>
+]]></content>
+  <tabTrigger>oui-progress-warning</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-progress-warning</description>
+</snippet>

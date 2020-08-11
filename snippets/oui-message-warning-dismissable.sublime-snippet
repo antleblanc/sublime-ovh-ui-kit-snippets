@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<oui-message
+    type="warning"
+    aria-close-button-label="${1:Close}"
+    on-dismiss="\$ctrl.${2:onDismiss()}"
+    dismissable>
+    ${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit.}
+</oui-message>
+]]></content>
+  <tabTrigger>oui-message-warning-dismissable</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-message-warning-dismissable</description>
+</snippet>

@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
 <oui-back-button
-    href="${1}"
+    href="${1:#}"
     aria-label="${2:Aria label for heading}"
-    data-on-click="\$ctrl.${3:onClick()}">
+    on-click="\$ctrl.${3:onClick()}">
     {{ \$ctrl.${4:text} }}
 </oui-back-button>
 ]]></content>

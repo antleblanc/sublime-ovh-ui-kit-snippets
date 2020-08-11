@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<oui-spinner size="${1:s}"></oui-spinner>
+]]></content>
+  <tabTrigger>oui-spinner-sizes</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-spinner-sizes</description>
+</snippet>

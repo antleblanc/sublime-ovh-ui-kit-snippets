@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<span class="oui-badge oui-badge_success">${1:Success}</span>
+]]></content>
+  <tabTrigger>oui-badge-success</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-badge-success</description>
+</snippet>

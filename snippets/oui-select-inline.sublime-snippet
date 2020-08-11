@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<oui-select
+    disabled="\$ctrl.${1:disabled}"
+    items="${2:['a', 'b', 'c']}"
+    model="\$ctrl.${3:model}"
+    placeholder="${4:Select a letter…}"
+    inline>
+</oui-select>
+]]></content>
+  <tabTrigger>oui-select-inline</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-select-inline</description>
+</snippet>

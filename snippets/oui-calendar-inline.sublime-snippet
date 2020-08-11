@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<oui-calendar
+    model="\$ctrl.${1:model}"
+    inline>
+</oui-calendar>
+]]></content>
+  <tabTrigger>oui-calendar-inline</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-calendar-inline</description>
+</snippet>

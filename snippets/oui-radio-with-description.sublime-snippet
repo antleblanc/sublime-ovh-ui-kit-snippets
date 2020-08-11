@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<oui-radio
+    disabled="\$ctrl.${1:disabled}"
+    model="\$ctrl.${2:model}"
+    name="${3:oui-radio-1}"
+    on-change="\$ctrl.${4:onChange(modelValue)}"
+    value="\$ctrl.${5:value1}">
+    <oui-radio-label>${6:Value A}</oui-radio-label>
+    <oui-radio-description>${7:Lorem ipsum dolor sit amet, consectetur adipiscing elit.}</oui-radio-description>
+</oui-radio>
+]]></content>
+  <tabTrigger>oui-radio-with-description</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-radio-with-description</description>
+</snippet>

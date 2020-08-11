@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+<oui-collapsible
+    heading="${1:Click to load content}"
+    loading="\$ctrl.${2:loading}"
+    aria-label="${3:Action}"
+    expanded="\$ctrl.${4:expanded}"
+    on-toggle="\$ctrl.${5:onToggle(expanded, this)}">
+    <span data-ng-bind="\$ctrl.${6:content}"></span>
+</oui-collapsible>
+]]></content>
+  <tabTrigger>oui-collapsible-loading</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-collapsible-loading</description>
+</snippet>

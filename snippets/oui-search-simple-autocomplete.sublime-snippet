@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<oui-search
+    autocomplete="\$ctrl.${1:autocomplete}"
+    autocomplete-property="${2:country.name}"
+    model="\$ctrl.${3:model}"
+    on-change="\$ctrl.${4:onChange(modelValue)}"
+    on-reset="\$ctrl.${5:onReset()}"
+    on-submit="\$ctrl.${6:onSubmit(modelValue)}"
+    placeholder="${7:Search country name}">
+</oui-search>
+]]></content>
+  <tabTrigger>oui-search-simple-autocomplete</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-search-simple-autocomplete</description>
+</snippet>

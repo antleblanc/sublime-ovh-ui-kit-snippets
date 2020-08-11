@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<span class="oui-badge">${1:Default}</span>
+]]></content>
+  <tabTrigger>oui-badge-default</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-badge-default</description>
+</snippet>

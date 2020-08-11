@@ -2,13 +2,12 @@
   <content><![CDATA[
 <oui-select
     disabled="\$ctrl.${1:disabled}"
-    data-items="${2:['a', 'b', 'c']}"
-    data-model="\$ctrl.${3:model}"
-    name="${4:letter}"
-    placeholder="{{ \$ctrl.${5:placeholder} }}"
-    data-on-blur="\$ctrl.${6:onBlur()}"
-    data-on-change="\$ctrl.${7:onChange(modelValue)}"
-    data-on-focus="\$ctrl.${8:onFocus()}">
+    items="${2:['a', 'b', 'c']}"
+    model="\$ctrl.${3:model}"
+    placeholder="${4:Select a letter…}"
+    on-blur="\$ctrl.${5:onBlur()}"
+    on-change="\$ctrl.${6:onChange(modelValue)}"
+    on-focus="\$ctrl.${7:onFocus()}">
 </oui-select>
 ]]></content>
   <tabTrigger>oui-select</tabTrigger>

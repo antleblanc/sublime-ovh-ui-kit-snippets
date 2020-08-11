@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<oui-calendar
+    model="\$ctrl.${1:model}"
+    min-date="\$ctrl.${2:minDate}"
+    max-date="\$ctrl.${3:maxDate}">
+</oui-calendar>
+]]></content>
+  <tabTrigger>oui-calendar-limited-range-of-dates</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-calendar-limited-range-of-dates</description>
+</snippet>

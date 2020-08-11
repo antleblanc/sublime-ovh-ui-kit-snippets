@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+<oui-modal
+    heading="${1:Modal title}"
+    loading="\$ctrl.${2:isLoading}"
+    primary-action="\$ctrl.${3:onPrimaryAction()}"
+    primary-disabled="\$ctrl.${4:primaryDisabled}"
+    primary-label="${5:Ok}"
+    secondary-action="\$ctrl.${6:onSecondaryAction()}"
+    secondary-disabled="\$ctrl.${7:secondaryDisabled}"
+    secondary-label="${8:Cancel}"
+    on-dismiss="\$ctrl.${9:onDismiss()}">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis semper ligula nec fringilla tempor. In rhoncus ullamcorper feugiat.
+        Phasellus vel ipsum vitae neque varius luctus. Proin id iaculis arcu.
+        Fusce justo arcu, egestas vel nulla nec, dictum cursus lacus.
+        Aenean elementum vel odio quis rutrum. In quis tellus in neque vulputate
+        rhoncus vitae ut justo. Ut dignissim varius est in consequat.
+        Donec nisi mauris, pellentesque condimentum congue in, blandit ut arcu.
+        In et elit ipsum.
+    </p>
+</oui-modal>
+]]></content>
+  <tabTrigger>oui-modal-with-actions</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-modal-with-actions</description>
+</snippet>

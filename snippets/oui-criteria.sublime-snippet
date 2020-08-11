@@ -2,9 +2,9 @@
   <content><![CDATA[
 <oui-criteria
     disabled="\$ctrl.${1:disabled}"
-    data-model="\$ctrl.${2:model}"
-    data-on-change="\$ctrl.${3:onChange(modelValue)}"
-    data-properties="\$ctrl.${4:properties}">
+    model="\$ctrl.${2:model}"
+    on-change="\$ctrl.${3:onChange(modelValue)}"
+    properties="\$ctrl.${4:properties}">
 </oui-criteria>
 ]]></content>
   <tabTrigger>oui-criteria</tabTrigger>

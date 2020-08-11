@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<oui-criteria
+    disabled="\$ctrl.${1:disabled}"
+    model="\$ctrl.${2:model}"
+    on-change="\$ctrl.${3:onChange(modelValue)}"
+    properties="\$ctrl.${4:properties}"
+    searchable>
+</oui-criteria>
+]]></content>
+  <tabTrigger>oui-criteria-with-a-search-field</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-criteria-with-a-search-field</description>
+</snippet>

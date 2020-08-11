@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<span class="oui-badge oui-badge_delivery-24-hours">${1:24h}</span>
+]]></content>
+  <tabTrigger>oui-badge-delivery-24-hours</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-badge-delivery-24-hours</description>
+</snippet>

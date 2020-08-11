@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<oui-form-actions
+    submit-text="${1:Apply}"
+    cancel-text="${2:Close}"
+    on-submit="\$ctrl.${3:onSubmitClick()}"
+    on-cancel="\$ctrl.${4:onCancelClick()}"
+    disabled="\$ctrl.${5:disabled}">
+</oui-form-actions>
+]]></content>
+  <tabTrigger>oui-form-actions-custom-naming</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-form-actions-custom-naming</description>
+</snippet>

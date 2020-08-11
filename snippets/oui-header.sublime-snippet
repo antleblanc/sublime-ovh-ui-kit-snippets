@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
 <oui-header
-    data-heading="${1:My title}"
-    data-description="${2:My subtitle}">
+    heading="${1:My title}"
+    description="${2:My subtitle}">
 </oui-header>
 ]]></content>
   <tabTrigger>oui-header-tabs</tabTrigger>

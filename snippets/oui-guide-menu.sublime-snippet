@@ -1,19 +1,14 @@
 <snippet>
   <content><![CDATA[
-<oui-guide-menu data-text="${1:Guides}">
-    <oui-guide-menu-item data-on-click="\$ctrl.${2:onGuideClick()}">
+<oui-guide-menu text="${1:Guides}">
+    <oui-guide-menu-item on-click="\$ctrl.${2:onGuideClick()}">
         ${3:Guide 2 (button)}
     </oui-guide-menu-item>
-    <oui-guide-menu-item
-        data-on-click="\$ctrl.${4:onGuideClick()}"
-        href="${5}">
+    <oui-guide-menu-item on-click="\$ctrl.${4:onGuideClick()}" href="${5:#}">
         ${6:Guide 1 (link)}
     </oui-guide-menu-item>
     <oui-guide-menu-divider></oui-guide-menu-divider>
-    <oui-guide-menu-item
-        data-on-click="\$ctrl.${7:onGuideClick()}"
-        href="${8}"
-        data-external>
+    <oui-guide-menu-item on-click="\$ctrl.${7:onGuideClick()}" href="${8:#}" external>
         ${9:External link}
     </oui-guide-menu-item>
 </oui-guide-menu>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+<oui-field label="${1:Label}"
+    label-popover="${2:Lorem ipsum dolor sit amet}">
+    <input class="oui-input"
+        name="${3:field}"
+        placeholder="${4:Please insert your text…}"
+        type="text"
+        value="${5:Lorem ipsum dolor sit amet}">
+</oui-field>
+]]></content>
+  <tabTrigger>oui-field-label-popover</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-field-label-popover</description>
+</snippet>

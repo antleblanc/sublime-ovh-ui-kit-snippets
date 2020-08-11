@@ -1,8 +1,0 @@
-<snippet>
-  <content><![CDATA[
-<oui-button aria-label="${1:Manage your servers}">${1:Manage your servers}</oui-button>
-]]></content>
-  <tabTrigger>oui-button</tabTrigger>
-  <scope>text.html</scope>
-  <description>oui-button</description>
-</snippet>

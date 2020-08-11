@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<oui-chips items="\$ctrl.${1:items}"></oui-chips>
+]]></content>
+  <tabTrigger>oui-chips-inline</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-chips-inline</description>
+</snippet>

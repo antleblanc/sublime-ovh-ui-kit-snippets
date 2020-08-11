@@ -2,11 +2,11 @@
   <content><![CDATA[
 <oui-textarea
     disabled="\$ctrl.${1:disabled}"
-    data-model="\$ctrl.${2:model}"
-    data-on-change="\$ctrl.${3:onChange(modelValue)}"
+    model="\$ctrl.${2:model}"
+    on-change="\$ctrl.${3:onChange(modelValue)}"
     placeholder="${4:Please insert your text…}"
     readonly="\$ctrl.${5:readonly}"
-    rows="${6:7}">
+    rows="${6:5}">
 </oui-textarea>
 ]]></content>
   <tabTrigger>oui-textarea</tabTrigger>

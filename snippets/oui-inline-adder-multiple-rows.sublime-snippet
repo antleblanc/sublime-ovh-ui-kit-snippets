@@ -1,0 +1,36 @@
+<snippet>
+  <content><![CDATA[
+<oui-inline-adder
+    on-add="\$ctrl.${1:onAdd(form)}"
+    on-change="\$ctrl.${2:onChange(form)}"
+    on-remove="\$ctrl.${3:onRemove(form)}">
+    <oui-inline-adder-row>
+        <oui-inline-adder-field>
+            <oui-field label="Field 1">
+                <input type="text" class="oui-input" name="field1" data-ng-model="field1" required>
+            </oui-field>
+        </oui-inline-adder-field>
+        <oui-inline-adder-field>
+            <oui-field label="Field 2">
+                <input type="text" class="oui-input" name="field2" data-ng-model="field2">
+            </oui-field>
+        </oui-inline-adder-field>
+    </oui-inline-adder-row>
+    <oui-inline-adder-row>
+        <oui-inline-adder-field>
+            <oui-field label="Field 3">
+                <input type="text" class="oui-input" name="field3" data-ng-model="field3" required>
+            </oui-field>
+        </oui-inline-adder-field>
+        <oui-inline-adder-field>
+            <oui-field label="Field 4">
+                <input type="text" class="oui-input" name="field4" data-ng-model="field4">
+            </oui-field>
+        </oui-inline-adder-field>
+    </oui-inline-adder-row>
+</oui-inline-adder>
+]]></content>
+  <tabTrigger>oui-inline-adder-multiple-rows</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-inline-adder-multiple-rows</description>
+</snippet>

@@ -1,0 +1,12 @@
+
+OVH UI Kit Snippets for Sublime Text v2.0.0
+
+========================
+
+Upgrade to OVH UI Kit v3.
+
+Read more about the new release of OVH UI Kit v3: https://github.com/ovh-ux/ovh-ui-kit/blob/master/V2-TO-V3.md
+
+---------------------------------
+Follow me on Twitter: @antleblanc
+---------------------------------

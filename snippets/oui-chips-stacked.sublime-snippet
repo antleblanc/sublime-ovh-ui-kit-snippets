@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<oui-chips items="\$ctrl.${1:items}" stacked></oui-chips>
+]]></content>
+  <tabTrigger>oui-chips-stacked</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-chips-stacked</description>
+</snippet>

@@ -1,59 +1,43 @@
 <snippet>
   <content><![CDATA[
 <oui-stepper
-    data-on-init="\$ctrl.${1:onInit()}"
-    data-on-finish="\$ctrl.${2:onFinish(forms)}">
+    on-init="\$ctrl.${1:onInit()}"
+    on-finish="\$ctrl.${2:onFinish(forms)}">
     <oui-step-form
-        data-header="${3:Step 1}"
-        data-description="${4:This is a description}"
-        data-on-cancel="\$ctrl.${5:onCancel()}"
-        data-on-focus="\$ctrl.${6:onFocus()}"
-        data-on-submit="\$ctrl.${7:onSubmit(form)}">
-        <oui-field
-            data-label="${8:Email}"
-            data-size="${9:xl}">
-            <input
-                class="oui-input"
-                type="${10:email}"
-                name="${10:email}"
-                data-ng-model="\$ctrl.${11:user.email}"
-                required>
+        name="${3:step1}"
+        header="${4:Step 1}"
+        description="${5:This is a description}"
+        on-cancel="\$ctrl.${6:onCancel()}"
+        on-focus="\$ctrl.${7:onFocus('step1')}"
+        on-submit="\$ctrl.${8:onSubmit(form)}">
+        ${9:<oui-field label="Email" size="xl">
+            <input class="oui-input" type="email" name="email" data-ng-model="\$ctrl.user.email" required>
+        </oui-field>}
+    </oui-step-form>
+
+    <oui-step-form
+        name="step2"
+        header="Step 2"
+        description="This is a description"
+        on-cancel="\$ctrl.onCancel()"
+        on-focus="\$ctrl.onFocus('step2')"
+        on-submit="\$ctrl.onSubmit(form)"
+        skippable>
+        <oui-field label="Firstname" size="xl">
+            <input class="oui-input" type="text" name="firstname" data-ng-model="\$ctrl.user.firstname" maxlength="32">
         </oui-field>
     </oui-step-form>
+
     <oui-step-form
-        data-header="${12:Step 2}"
-        data-description="${13:This is a description}"
-        data-on-cancel="\$ctrl.${14:onCancel()}"
-        data-on-focus="\$ctrl.${15:onFocus()}"
-        data-on-submit="\$ctrl.${16:onSubmit(form)}"
-        data-skippable>
-        <oui-field
-            data-label="${17:Firstname}"
-            data-size="${18:xl}">
-            <input
-                class="oui-input"
-                type="text"
-                name="${19:firstname}"
-                data-ng-model="\$ctrl.${20:user.firstname}"
-                maxlength="${21:32}">
-        </oui-field>
-    </oui-step-form>
-    <oui-step-form
-        data-header="${22:Step 3}"
-        data-description="${23:This is a description}"
-        data-on-cancel="\$ctrl.${24:onCancel()}"
-        data-on-focus="\$ctrl.${25:onFocus()}"
-        data-on-submit="\$ctrl.${26:onSubmit(form)}"
-        data-skippable>
-        <oui-field
-            data-label="${27:Lastname}"
-            data-size="${28:xl}">
-            <input
-                class="oui-input"
-                type="text"
-                name="${29:lastname}"
-                data-ng-model="\$ctrl.${30:user.lastname}"
-                maxlength="${31:32}">
+        name="step3"
+        header="Step 3"
+        description="This is a description"
+        on-cancel="\$ctrl.onCancel()"
+        on-focus="\$ctrl.onFocus('step3')"
+        on-submit="\$ctrl.onSubmit(form)"
+        skippable>
+        <oui-field label="Lastname" size="xl">
+            <input class="oui-input" type="text" name="lastname" data-ng-model="\$ctrl.user.lastname" maxlength="32">
         </oui-field>
     </oui-step-form>
 </oui-stepper>

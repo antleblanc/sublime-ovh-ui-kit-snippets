@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<oui-message type="success">${1:Lorem ipsum dolor sit amet, consectetur adipiscing elit.}</oui-message>
+]]></content>
+  <tabTrigger>oui-message-success</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-message-success</description>
+</snippet>

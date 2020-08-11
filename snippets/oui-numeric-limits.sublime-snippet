@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<oui-numeric
+    min="\$ctrl.${1:min}"
+    max="\$ctrl.${2:max}"
+    model="\$ctrl.${3:model}"
+    disabled="\$ctrl.${4:disabled}"
+    on-change="\$ctrl.${5:onChange(modelValue)}">
+</oui-numeric>
+]]></content>
+  <tabTrigger>oui-numeric-limits</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-numeric-limits</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<oui-calendar
+    model="\$ctrl.${1:model}"
+    format="${2:Y-m-d H:i}"
+    enable-time>
+</oui-calendar>
+]]></content>
+  <tabTrigger>oui-calendar-enable-timepicker</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-calendar-enable-timepicker</description>
+</snippet>
