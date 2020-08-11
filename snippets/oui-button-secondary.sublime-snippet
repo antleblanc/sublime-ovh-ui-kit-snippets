@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<oui-button variant="secondary" disabled="\$ctrl.${1:disabled}">
+    ${2:Call to action}
+</oui-button>
+]]></content>
+  <tabTrigger>oui-button-secondary</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-button-secondary</description>
+</snippet>
