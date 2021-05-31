@@ -2,9 +2,9 @@
   <content><![CDATA[
 <oui-back-button
     href="${1:#}"
-    aria-label="${2:Aria label for heading}"
-    on-click="\$ctrl.${3:onClick()}">
-    {{ \$ctrl.${4:text} }}
+    previous-page="{{ \$ctrl.${2:previousPage} }}"
+    aria-label="${3:Aria label for heading}"
+    on-click="\$ctrl.${4:onClick()}">
 </oui-back-button>
 ]]></content>
   <tabTrigger>oui-back-button</tabTrigger>
