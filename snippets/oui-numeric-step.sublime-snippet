@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+<oui-numeric
+    min="\$ctrl.${1:min}"
+    max="\$ctrl.${2:max}"
+    model="\$ctrl.${3:model}"
+    disabled="\$ctrl.${4:disabled}"
+    step="\$ctrl.${5:step}"
+    on-change="\$ctrl.${6:onChange(modelValue)}">
+</oui-numeric>
+]]></content>
+  <tabTrigger>oui-numeric-step</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-numeric-step</description>
+</snippet>
