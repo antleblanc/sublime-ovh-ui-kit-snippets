@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<oui-back-button
+    href="${1:#}"
+    previous-page="{{ \$ctrl.${2:previousPage} }}"
+    aria-label="${3:Aria label for heading}"
+    on-click="\$ctrl.${4:onClick()}">
+</oui-back-button>
+]]></content>
+  <tabTrigger>oui-back-button-default</tabTrigger>
+  <scope>text.html</scope>
+  <description>oui-back-button-default</description>
+</snippet>
