@@ -1,0 +1,12 @@
+
+OVH UI Kit Snippets for Sublime Text v3.1.0
+
+========================
+
+* fix(snippets): update oui-back-button
+* feat(snippets): add oui-back-button-default
+* feat(snippets): add oui-numeric-step
+
+---------------------------------
+Follow me on Twitter: @antleblanc
+---------------------------------
