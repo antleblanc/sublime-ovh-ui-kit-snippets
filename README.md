@@ -13,7 +13,6 @@
 ## Related
 
 * [ovh-ui-kit](https://github.com/ovh/ovh-ui-kit) - OVHcloud UI Kit - Master UI Framework
-* [atom-ovh-ui-kit-snippets](https://github.com/antleblanc/atom-ovh-ui-kit-snippets) - Collection of OVHcloud UI Kit snippets for Atom
 * [vscode-ovh-ui-kit-snippets](https://github.com/antleblanc/vscode-ovh-ui-kit-snippets) - Collection of OVHcloud UI Kit snippets for Visual Studio Code
 
 ## License
